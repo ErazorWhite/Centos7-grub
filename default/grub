@@ -1,0 +1,7 @@
+GRUB_TIMEOUT=5
+GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)"
+GRUB_DEFAULT=saved
+GRUB_DISABLE_SUBMENU=true
+GRUB_TERMINAL_OUTPUT="console"
+GRUB_CMDLINE_LINUX="crashkernel=auto rd.md.uuid=7f4af26b:53eb0202:71f0eb03:3c2c25b5 rd.md.uuid=1eca91c4:89506150:c13805c8:50413826 rd.md.uuid=083e9f38:f6ba9674:93c2ddec:873819e6 rhgb quiet net.ifnames=0 biosdevname=0"
+GRUB_DISABLE_RECOVERY="true"

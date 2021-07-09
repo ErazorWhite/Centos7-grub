@@ -1,0 +1,6 @@
+DEVICE=ext1
+BOOTPROTO=none
+ONBOOT=yes
+MASTER=agge
+SLAVE=yes
+USERCTL=no

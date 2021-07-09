@@ -1,0 +1,11 @@
+DEVICE=aggi
+IPADDR=10.26.69.140
+NETMASK=255.255.255.248
+ONBOOT=yes
+BOOTPROTO=none
+USERCTL=no
+NM_CONTROLLED="no"
+TYPE="Bonding"
+BONDING_OPTS="mode=4 miimon=100 downdelay=200 updelay=200 lacp_rate=slow xmit_hash_policy=layer3+4"
+ETHTOOL_OPTIONS="-K aggi tx off tso off"
+MTU=1500

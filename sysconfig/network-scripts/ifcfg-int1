@@ -1,0 +1,6 @@
+DEVICE=int1
+BOOTPROTO=none
+ONBOOT=yes
+MASTER=aggi
+SLAVE=yes
+USERCTL=no
